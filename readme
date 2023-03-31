@@ -10,9 +10,9 @@ Usage
 
 To run the solutions, clone this repository and navigate to the root directory of the project. Then, run the following command:
 
-arduino
-Copy code
+
 sbt run
+
 This will execute the main method in the Main.scala file, which will run all the solutions and print the results to the console.
 
 Alternatively, you can run individual solutions by executing the corresponding main method in the solution files.
@@ -21,8 +21,6 @@ Project Structure
 
 The project is structured as follows:
 
-css
-Copy code
 .
 ├── build.sbt
 ├── src
