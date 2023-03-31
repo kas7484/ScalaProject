@@ -1,0 +1,51 @@
+Scala Project
+
+This project contains solutions to Scala prompts. The solutions are implemented using Scala programming language and can be executed using the sbt tool.
+
+Prerequisites
+
+Scala 2.13
+sbt 1.5.5
+Usage
+
+To run the solutions, clone this repository and navigate to the root directory of the project. Then, run the following command:
+
+arduino
+Copy code
+sbt run
+This will execute the main method in the Main.scala file, which will run all the solutions and print the results to the console.
+
+Alternatively, you can run individual solutions by executing the corresponding main method in the solution files.
+
+Project Structure
+
+The project is structured as follows:
+
+css
+Copy code
+.
+├── build.sbt
+├── src
+│   ├── main
+│   │   └── scala
+│   │       └── Main.scala
+│   └── test
+│       └── scala
+│           └── MainSpec.scala
+└── solutions
+    ├── Solution1.scala
+    ├── Solution2.scala
+    ├── Solution3.scala
+    ├── Solution4.scala
+    └── Solution5.scala
+build.sbt file contains the project configuration and dependencies.
+src/main/scala/Main.scala file contains the main method that runs all the solutions.
+src/test/scala/MainSpec.scala file contains the unit tests for the Main.scala file.
+solutions directory contains the Scala files that implement the solutions to the homework assignments.
+Contributing
+
+Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please create a pull request or submit an issue.
+
+License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
